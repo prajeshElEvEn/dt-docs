@@ -86,3 +86,178 @@ button.button-primary {
   border: 3px var(--primary-button-background-color) solid;
 }
 ```
+
+**Usage**
+
+```html
+<button class="button-primary">
+    Click
+</button>
+```
+
+### Secondary Button
+
+**Class**
+
+```css
+button.button-secondary {
+  background: var(--secondary-button-background-color);
+  color: var(--secondary-button-text-color);
+  border: 3px var(--primary-button-background-color) solid;
+}
+```
+
+**Usage**
+
+```html
+<button class="button-secondary">
+    Click
+</button>
+```
+
+### Tertiary Button
+
+**Class**
+
+```css
+button.button-tertiary {
+  background: var(--tertiary-button-background-color);
+  color: var(--tertiary-button-text-color);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+```
+
+**Usage**
+
+```html
+<button class="button-tertiary">
+    Click
+</button>
+```
+
+### Primary Button Disabled
+
+**Class**
+
+```css
+button.button-primary.disabled,
+button.button-primary:disabled {
+  background: var(--button-disabled-background);
+  border: 3px solid var(--button-disabled-background);
+  box-shadow: none;
+  color: #000;
+}
+```
+
+**Usage**
+
+```html
+<button class="button-primary disabled">
+    Click
+</button>
+```
+
+### Secondary Button Disabled
+
+**Class**
+
+```css
+button.button-secondary.disabled,
+button.button-secondary:disabled {
+  background: var(--button-disabled-background);
+  border: 3px solid var(--secondary-button-disabled-border-color);
+  box-shadow: none;
+  color: var(--secondary-button-disabled-color);
+}
+```
+
+**Usage**
+
+```html
+<button class="button-secondary disabled">
+    Click
+</button>
+```
+
+### Tertiary Button Disabled
+
+**Class**
+
+```css
+button.button-tertiary.disabled,
+button.button-tertiary:disabled {
+  background: var(--button-disabled-background);
+  box-shadow: none;
+}
+```
+
+**Usage**
+
+```html
+<button class="button-tertiary disabled">
+    Click
+</button>
+```
+
+## Button Styles
+
+### Primary Button Hover
+
+```css
+button.button-primary.hover,
+button.button-primary:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+```
+
+### Primary Button Active
+
+```css
+button.button-primary.active,
+button.button-primary:active {
+  box-shadow: inset -2px 4px 10px rgba(78, 76, 76, 0.4);
+  border: 3px rgba(78, 76, 76, 0.26) solid;
+}
+```
+
+### Secondary Button Hover
+
+```css
+button.button-secondary.hover,
+button.button-secondary:hover {
+  background: rgba(0, 41, 255, 0.11);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+```
+
+### Secondary Button Active
+
+```css
+button.button-secondary.active,
+button.button-secondary:active {
+  box-shadow: inset -2px 4px 10px rgba(78, 76, 76, 0.4);
+  background: rgba(0, 41, 255, 0.11);
+}
+```
+
+### Tertiary Button Hover
+
+```css
+button.button-tertiary.hover,
+button.button-tertiary:hover {
+  background: rgba(0, 41, 255, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+```
+
+### Tertiary Button Active
+
+```css
+button.button-tertiary.active,
+button.button-tertiary:active {
+  background: rgba(0, 41, 255, 0.15);
+  box-shadow: inset -2px 4px 10px rgba(78, 76, 76, 0.25);
+}
+```
