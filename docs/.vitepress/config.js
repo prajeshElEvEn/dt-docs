@@ -35,6 +35,12 @@ export default defineConfig({
         items: [
           { text: 'Background Accents', link: '/guide/classes/bg-accents' },
           { text: 'Text Ellipse', link: '/guide/classes/text-ellipse' },
+          { text: 'Cursor', link: '/guide/classes/cursor' },
+        ]
+      }, {
+        text: 'Components',
+        items: [
+          { text: 'Button', link: '/guide/components/button' }
         ]
       }
     ],

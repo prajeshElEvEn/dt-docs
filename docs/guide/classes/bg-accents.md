@@ -2,7 +2,7 @@
 
 There are few classes that can be used to add background accents to elements.
 
-## Background Accent 1
+## Yellow Background Accent
 
 **Class**
 
@@ -16,11 +16,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-1'>
-    Background Accent 1
+    Yellow Background Accent
 </div>
 ```
 
-## Background Accent 2
+## Green Background Accent
 
 **Class**
 
@@ -34,11 +34,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-2'>
-    Background Accent 2
+    Green Background Accent
 </div>
 ```
 
-## Background Accent 3
+## Blue Background Accent
 
 **Class**
 
@@ -52,11 +52,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-3'>
-    Background Accent 3
+    Blue Background Accent
 </div>
 ```
 
-## Background Accent 4
+## Orange Background Accent
 
 **Class**
 
@@ -70,11 +70,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-4'>
-    Background Accent 4
+    Orange Background Accent
 </div>
 ```
 
-## Background Accent 5
+## Purple Background Accent
 
 **Class**
 
@@ -88,11 +88,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-5'>
-    Background Accent 5
+    Purple Background Accent
 </div>
 ```
 
-## Background Accent 6
+## Pink Background Accent
 
 **Class**
 
@@ -106,11 +106,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-6'>
-    Background Accent 6
+    Pink Background Accent
 </div>
 ```
 
-## Background Accent 7
+## Light Grey Background Accent
 
 **Class**
 
@@ -124,11 +124,11 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-accent-7'>
-    Background Accent 7
+    Light Grey Background Accent
 </div>
 ```
 
-## Background Accent 8
+## Grey Background Accent
 
 **Class**
 
@@ -142,6 +142,6 @@ There are few classes that can be used to add background accents to elements.
 
 ```html
 <div class='bg-grey'>
-    Background Accent 8
+    Grey Background Accent
 </div>
 ```
