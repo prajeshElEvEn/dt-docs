@@ -33,14 +33,17 @@ export default defineConfig({
       {
         text: 'Utility Classes',
         items: [
-          { text: 'Background Accents', link: '/guide/classes/bg-accents' },
+          { text: 'Body', link: '/guide/classes/body' },
+          { text: 'Headings', link: '/guide/classes/headings' },
           { text: 'Text Ellipse', link: '/guide/classes/text-ellipse' },
+          { text: 'Background Accents', link: '/guide/classes/bg-accents' },
           { text: 'Cursor', link: '/guide/classes/cursor' },
         ]
       }, {
         text: 'Components',
         items: [
-          { text: 'Button', link: '/guide/components/button' }
+          { text: 'Header', link: '/guide/components/header' },
+          { text: 'Button', link: '/guide/components/button' },
         ]
       }
     ],
