@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "DTDocs"
-  text: "Documentation for DeepThought websites' custom CSS built over Bootstrap v5"
-  tagline: My great project tagline
+  text: "Custom CSS built over Bootstrap v5"
+  tagline: Documentation for DeepThought websites' custom CSS built over Bootstrap v5
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide/get-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/prajeshElEvEn/dt-docs
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Easy to Use
+    details: Get familiar with components and utilities in no time
+  - title: Customizable
+    details: Customize colors, spacing, fonts, and more
+  - title: Lightweight
+    details: Easily import only what you need
 ---
 
