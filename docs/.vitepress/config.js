@@ -43,6 +43,7 @@ export default defineConfig({
         text: 'Components',
         items: [
           { text: 'Header', link: '/guide/components/header' },
+          { text: 'Left Sidebar', link: '/guide/components/left-sidebar' },
           { text: 'Button', link: '/guide/components/button' },
         ]
       }

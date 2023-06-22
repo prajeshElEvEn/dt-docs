@@ -41,3 +41,47 @@ header {
 :::warning
 Remember to include [Bootstrap Web Icon CDN](https://icons.getbootstrap.com/#install) in `head` tag or the icons won't be displayed.
 :::
+
+## Sub Classes
+
+### Logo
+
+The `logo` class specifies the styles of brand logo of DeepThought.
+
+**Class**
+
+```css
+header .logo {
+  width: 225px;
+}
+```
+
+**Usage**
+
+```html
+<a href="#" class="logo">
+    <img src="./assets/brand-logo.img" alt="">
+</a>
+```
+
+### User Image
+
+The `user-img` class specifies the styles of user avatar in the `header`.
+
+**Class**
+
+```css
+.user-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+```
+
+**Usage**
+
+```html
+<a href="#">
+    <img src="./assets/user-image.jpg" alt="" class="user-img">
+</a>
+```
