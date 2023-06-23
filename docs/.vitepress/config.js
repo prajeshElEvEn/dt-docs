@@ -44,6 +44,8 @@ export default defineConfig({
         items: [
           { text: 'Header', link: '/guide/components/header' },
           { text: 'Left Sidebar', link: '/guide/components/left-sidebar' },
+          { text: 'Container', link: '/guide/components/full-width-container' },
+          { text: 'Content', link: '/guide/components/content' },
           { text: 'Button', link: '/guide/components/button' },
         ]
       }
