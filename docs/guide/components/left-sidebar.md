@@ -197,3 +197,18 @@ left-sidebar:hover a {
   display: none;
 }
 ```
+
+## Sidebar Backdrop
+
+```css
+#sidebarBackDrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none;
+}
+```
