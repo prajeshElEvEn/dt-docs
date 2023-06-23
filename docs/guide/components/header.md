@@ -85,3 +85,11 @@ The `user-img` class specifies the styles of user avatar in the `header`.
     <img src="./assets/user-image.jpg" alt="" class="user-img">
 </a>
 ```
+
+## Dropdown Toggle
+
+```css
+header .dropdown-toggle::after {
+  display: none;
+}
+```

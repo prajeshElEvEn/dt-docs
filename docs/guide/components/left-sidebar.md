@@ -181,3 +181,19 @@ left-sidebar:hover a {
   font-weight: 600;
 }
 ```
+
+## Toggle Left Sidebar
+
+```css
+#toggleLeftSidebar {
+  position: fixed;
+  left: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1003;
+  transform: translate(0, -50%);
+  top: calc(var(--header-height) / 2);
+  transition: 0.3s;
+  display: none;
+}
+```

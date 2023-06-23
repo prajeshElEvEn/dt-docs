@@ -27,7 +27,9 @@ export default defineConfig({
           { text: 'Accents', link: '/guide/root/accents' },
           { text: 'Grey Scale', link: '/guide/root/grey-scale' },
           { text: 'Dimensions', link: '/guide/root/dimensions' },
-          { text: 'All Root Styles', link: '/guide/root/all' },
+          { text: 'Root Styles', link: '/guide/root/all' },
+          { text: 'Media Styles', link: '/guide/root/media' },
+          { text: 'Animations', link: '/guide/root/anime' },
         ]
       },
       {
@@ -38,15 +40,21 @@ export default defineConfig({
           { text: 'Text Ellipse', link: '/guide/classes/text-ellipse' },
           { text: 'Background Accents', link: '/guide/classes/bg-accents' },
           { text: 'Cursor', link: '/guide/classes/cursor' },
+          { text: 'Links', link: '/guide/classes/links' },
         ]
       }, {
         text: 'Components',
         items: [
           { text: 'Header', link: '/guide/components/header' },
+          { text: 'Navbar', link: '/guide/components/navbar' },
           { text: 'Left Sidebar', link: '/guide/components/left-sidebar' },
+          { text: 'Right Sidebar', link: '/guide/components/right-sidebar' },
           { text: 'Container', link: '/guide/components/full-width-container' },
           { text: 'Content', link: '/guide/components/content' },
+          { text: 'Widgets', link: '/guide/components/widgets' },
+          { text: 'Card', link: '/guide/components/card' },
           { text: 'Button', link: '/guide/components/button' },
+          { text: 'Dropdown', link: '/guide/components/dropdown' },
         ]
       }
     ],

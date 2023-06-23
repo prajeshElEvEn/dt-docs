@@ -1,4 +1,6 @@
-# All Root Styles
+# Root Styles
+
+This is the list of all root styles that are used in DeepThought Design System.
 
 ```css
 :root {
@@ -42,5 +44,39 @@
   --tertiary-font-color: #535353;
   --border-color: var(--grey-scale-5);
   --list-hover-color: #f1f1f1;
+}
+```
+
+## Other Root Styles
+
+```css
+* {
+  scroll-behavior: smooth;
+}
+```
+
+```css
+* ::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 6px;
+}
+```
+
+```css
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+```
+
+```css
+:hover::-webkit-scrollbar {
+  width: 8px;
+}
+```
+
+```css
+:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 ```
